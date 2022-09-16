@@ -1,0 +1,49 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  background-color: #c0d2d4;
+  background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.title {
+  width: 50%;
+  height: 12rem;
+  background-color: #2ec2b0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem auto;
+  font-weight: 900;
+  color: white;
+  border-radius: 30px;
+  font-size: 7rem;
+}
+.row,
+.title,
+.footer {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.footer {
+  font-weight: 400;
+  font-size: 1.5rem;
+  display: inline;
+  margin: auto;
+  color: white;
+  background-color: #2ec2b0;
+  display: flex;
+  justify-content: center;
+  margin-top: 8rem;
+}
+@media (max-width: 1730px) {
+  .title {
+    font-size: 5rem !important
+  }
+}
